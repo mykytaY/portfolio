@@ -1,38 +1,33 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Source+Sans+Pro:wght@300&display=swap');
+
+:root {
+  --primary-yellow: #F7BF4F;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: 'Quicksand', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo
+{
+  width: 5rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+nav a.nav-link {
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+nav ul li {
+  text-transform: uppercase;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar-nav > li > a {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  color: var(--primary-yellow) !important;
+  border-bottom: 0.2rem solid rgb(33,37,41);
+}
+
+.navbar-nav > li > a:hover {
+  border-bottom: 0.2rem solid var(--primary-yellow);
 }
