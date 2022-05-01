@@ -3,7 +3,7 @@ import myLogo from '../logo.jpeg';
 
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav className="navbar navbar-expand-md  navbar-dark bg-dark">
             <div className="container">
                 <a className="navbar-brand" href="#"><img className="logo" src={myLogo} alt="logo" /></a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
