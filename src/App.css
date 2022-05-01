@@ -2,6 +2,8 @@
 
 :root {
   --primary-yellow: #F7BF4F;
+  --primary-orange: #f7794f;
+  --primary-orange-hover: #fc561e;
 }
 
 body {
@@ -46,6 +48,11 @@ nav ul li {
 
 .main-info{
   display: flex;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -56,4 +63,20 @@ nav ul li {
 .main-info h1{
   color: var(--primary-yellow) !important;
   text-transform: uppercase;
+}
+
+/*************** TYPED TEXT **************/
+.typed-text{
+  font-size: 2rem;
+  color: white;
+}
+
+/*************** HEADER MAIN OFFER BUTTON  **************/
+
+.btn-main-offer{
+  border: solid 2px var(--primary-orange);
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 10px 12px 12px 12px;
+  margin: 2rem;
 }
