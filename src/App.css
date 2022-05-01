@@ -8,6 +8,8 @@ body {
   font-family: 'Quicksand', sans-serif;
 }
 
+/******************************** NAVBAR ********************************/
+
 .logo
 {
   width: 4rem;
@@ -30,4 +32,28 @@ nav ul li {
 
 .navbar-nav > li > a:hover {
   border-bottom: 0.2rem solid var(--primary-yellow);
+}
+
+/******************************** HEADER ********************************/
+
+.header-wrapper{
+  position: relative;
+  background: url(bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+.main-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.main-info h1{
+  color: var(--primary-yellow) !important;
+  text-transform: uppercase;
 }
