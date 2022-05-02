@@ -74,6 +74,10 @@ nav ul li {
   text-transform: uppercase;
   font-size: 2.5rem;
 }
+.main-info h3{
+  color: var(--primary-yellow) !important;
+  font-size: 1.5rem;
+}
 
 @media(max-width: 768px){
   .main-info h1{
@@ -81,6 +85,9 @@ nav ul li {
   }
   .main-info h2{
     font-size: 2rem;
+  }
+  .main-info h3{
+    font-size: 1.5rem;
   }
 }
 
