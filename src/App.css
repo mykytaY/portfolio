@@ -17,6 +17,10 @@ body {
   width: 4rem;
 }
 
+nav{
+  z-index: 1;
+}
+
 nav a.nav-link {
   cursor: pointer;
 }
@@ -73,10 +77,12 @@ nav ul li {
 
 /*************** HEADER MAIN OFFER BUTTON  **************/
 
-.btn-main-offer{
+.btn-main-contact{
   border: solid 2px var(--primary-orange);
   text-transform: uppercase;
   border-radius: 0;
   padding: 10px 12px 12px 12px;
   margin: 2rem;
 }
+
+/*************** PARTICLES  **************/
