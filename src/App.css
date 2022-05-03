@@ -7,17 +7,16 @@
 }
 
 body {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Quicksand', sans-serif !important;
 }
 
 /******************************** NAVBAR ********************************/
 
-.logo
-{
+.logo {
   width: 4rem;
 }
 
-nav{
+nav {
   z-index: 1;
 }
 
@@ -29,20 +28,20 @@ nav ul li {
   text-transform: uppercase;
 }
 
-.navbar-nav > li > a {
+.navbar-nav>li>a {
   margin-left: 1rem;
   margin-right: 1rem;
   color: var(--primary-yellow) !important;
-  border-bottom: 0.2rem solid rgb(33,37,41);
+  border-bottom: 0.2rem solid rgb(33, 37, 41);
 }
 
-.navbar-nav > li > a:hover {
+.navbar-nav>li>a:hover {
   border-bottom: 0.2rem solid var(--primary-yellow);
 }
 
 /******************************** HEADER ********************************/
 
-.header-wrapper{
+.header-wrapper {
   position: relative;
   background: url(bg.jpg) no-repeat;
   background-size: cover;
@@ -50,7 +49,7 @@ nav ul li {
   height: 90vh;
 }
 
-.main-info{
+.main-info {
   display: flex;
   position: absolute;
   top: 0;
@@ -64,48 +63,52 @@ nav ul li {
   font-family: 'Quicksand', sans-serif;
 }
 
-.main-info h1{
+.main-info h1 {
   color: var(--primary-yellow) !important;
   text-transform: uppercase;
   font-size: 4rem;
 }
-.main-info h2{
+
+.main-info h2 {
   color: var(--primary-yellow) !important;
   text-transform: uppercase;
   font-size: 2.5rem;
 }
-.main-info h3{
+
+.main-info h3 {
   color: var(--primary-yellow) !important;
   font-size: 1.5rem;
 }
 
-@media(max-width: 768px){
-  .main-info h1{
+@media(max-width: 768px) {
+  .main-info h1 {
     font-size: 3rem;
   }
-  .main-info h2{
+
+  .main-info h2 {
     font-size: 2rem;
   }
-  .main-info h3{
+
+  .main-info h3 {
     font-size: 1.5rem;
   }
 }
 
 /*************** TYPED TEXT **************/
-.typed-text{
+.typed-text {
   font-size: 3rem;
   color: white;
 }
 
-@media(max-width: 768px){
-  .typed-text{
+@media(max-width: 768px) {
+  .typed-text {
     font-size: 2rem;
   }
 }
 
 /*************** HEADER MAIN OFFER BUTTON  **************/
 
-.btn-main-about{
+.btn-main-about {
   border: solid 2px var(--primary-orange-hover);
   text-transform: uppercase;
   border-radius: 0;
@@ -115,15 +118,37 @@ nav ul li {
   color: white;
 }
 
-.btn-main-about:hover{
+.btn-main-about:hover {
   text-decoration: none;
   background-color: var(--primary-orange-hover);
   color: white;
-  transition: .2s ease-in-out ;
+  transition: .2s ease-in-out;
 }
 
 /*************** PARTICLES  **************/
-.img-thumbnail{
-  width: 200px;
-  height: 200px;
+
+
+/******************************** ABOUT ME  ********************************/
+
+.photo-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-img {
+  width: 20rem;
+  padding: 0.3rem;
+  border: 1px solid var(--primary-orange);
+}
+
+.about-heading {
+  color: var(--primary-yellow);
+  text-transform: uppercase;
+}
+
+@media (max-width: 468px) {
+  .profile-img {
+    width: 10rem;
+  }
 }
