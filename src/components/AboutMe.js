@@ -1,6 +1,6 @@
 import React from 'react';
 import { Image } from 'react-bootstrap';
-import image from '../IMG_7656.JPG';
+import image from '../images/IMG_7656.JPG';
 
 const AboutMe = () => {
   return (

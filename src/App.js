@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar';
 import Header from './components/Header';
 import AboutMe from './components/AboutMe';
+import Skills from './components/Skills';
 // import Particles from 'react-tsparticles';
 // import { loadFull } from 'tsparticles';
 
@@ -87,6 +88,7 @@ function App() {
       <Navbar />
       <Header />
       <AboutMe />
+      <Skills />
     </>
   );
 }
