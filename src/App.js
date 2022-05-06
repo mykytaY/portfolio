@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Header from './components/Header';
 import AboutMe from './components/AboutMe';
 import Skills from './components/Skills';
+import Contact from './components/Contact';
 // import Particles from 'react-tsparticles';
 // import { loadFull } from 'tsparticles';
 
@@ -89,6 +90,7 @@ function App() {
       <Header />
       <AboutMe />
       <Skills />
+      <Contact />
     </>
   );
 }
