@@ -1,27 +1,28 @@
 import React from 'react';
 import myLogo from '../images/logo.jpeg';
+import {Link} from 'react-scroll';
 
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-md  navbar-dark bg-dark">
+        <nav className="navbar navbar-expand-md  navbar-dark bg-dark fixed-top">
             <div className="container">
-                <a className="navbar-brand" href="#"><img className="logo" src={myLogo} alt="logo" /></a>
+                <Link smooth={true} to='home' className="navbar-brand" href="#"><img className="logo" src={myLogo} alt="logo" /></Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="#">Home</a>
+                            <Link smooth={true} to="home" className="nav-link active" aria-current="page" href="#">Home</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">About Me</a>
+                            <Link smooth={true} to="about" offset={-90} className="nav-link" href="#">About Me</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Skills</a>
+                            <Link smooth={true} to="skills" offset={-90} className="nav-link" href="#">Skills</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Contact</a>
+                            <Link smooth={true} to="contact" offset={-90} className="nav-link" href="#">Contact</Link>
                         </li>
                     </ul>
                 </div>

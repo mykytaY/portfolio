@@ -3,7 +3,7 @@ import SkillsCarousel from './SkillsCarousel';
 
 const Skills = () => {
   return (
-    <div className='skills'>
+    <div id="skills" className='skills'>
         <h1>My Skills</h1>
         <div className='container'>
             <div className='skills-content'>
@@ -15,4 +15,3 @@ const Skills = () => {
 }
 
 export default Skills;
- 

@@ -1,5 +1,6 @@
 import React from 'react';
 import {SocialIcon} from 'react-social-icons';
+import { Link } from 'react-scroll';
 
 const Footer = () => {
   return (
@@ -20,9 +21,9 @@ const Footer = () => {
               <div className='col-lg-3 col-md-2 col-sm-6'>
                   <div className='row'>
                       <div className='col'>
-                          <a className='footer-nav'>Home</a><br/>
-                          <a className='footer-nav'>About Me</a><br/>
-                          <a className='footer-nav'>Skills</a>
+                          <Link smooth={true} to="home" offset={-90} className='footer-nav'>Home</Link><br/>
+                          <Link smooth={true} to="about" offset={-90} className='footer-nav'>About Me</Link><br/>
+                          <Link smooth={true} to="skills" offset={-90} className='footer-nav'>Skills</Link>
                       </div>
                   </div>
               </div>
