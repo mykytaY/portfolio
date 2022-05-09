@@ -5,6 +5,7 @@ import Header from './components/Header';
 import AboutMe from './components/AboutMe';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 // import Particles from 'react-tsparticles';
 // import { loadFull } from 'tsparticles';
 
@@ -91,6 +92,7 @@ function App() {
       <AboutMe />
       <Skills />
       <Contact />
+      <Footer />
     </>
   );
 }

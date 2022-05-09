@@ -321,3 +321,26 @@ textarea.form-control {
     padding: 0 0.5rem;
   }
 }
+
+/******************************** FOOTER  ********************************/
+
+.footer {
+  background: rgb(33, 37, 41);
+  color: var(--primary-yellow);
+  padding: 2rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--primary-yellow);
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: var(--primary-orange);
+  cursor: pointer;
+}
+
+.footer p {
+  margin-bottom: 0;
+}
