@@ -12,7 +12,7 @@ const Footer = () => {
                       <p>Built by Mykyta Yefremchenkov</p>
                   </div>
                   <div className='d-flex'>
-                      <a href="mykyta.y@hotmail.com">mykyta.y@hotmail.com</a>
+                      <a href="mailto:mykyta.y@hotmail.com">mykyta.y@hotmail.com</a>
                   </div>
                   <div className='d-flex'>
                       <p>Halifax, Nova Scotia, Canada</p>
