@@ -153,6 +153,10 @@ nav ul li {
   font-size: 16pt;
 }
 
+.about-paragraph span {
+  color: var(--primary-orange);
+}
+
 @media (max-width: 468px) {
   .profile-img {
     width: 10rem;

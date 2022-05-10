@@ -14,12 +14,10 @@ const AboutMe = () => {
           <div className='col-lg-6 col-xm-12'>
               <h1 className='about-heading'>About Me</h1>
               <p className='about-paragraph'>
-                Hello, My name is Mykyta and I love coding and design.<br/>
-                I have background in Business and Marketing but I always had love for Tech.<br/>
-                Here I am, doing what excites me!<br/>
-                I am a Junior Full Stack Developer with interest in Front End Development and Design.<br/>
-                I am a fast-learner, ambitious, goal-oriented person with an eye for style and attention to detail.<br/>
-                I like to work in a team setting but I can also be a very independant employee.
+                I am a <span>Full Stack Developer</span> with interest in <span>Front End Development and Design.</span><br/>
+                I have background in <span>Business and Marketing</span> but I always loved working with Tech.<br/>
+                I am a <span>fast-learner,</span> ambitious, goal-oriented person with an eye for style and <span>attention to detail.</span><br/>
+                I like working in a team setting but I can also be a very independant employee.
               </p>
           </div>
       </div>
