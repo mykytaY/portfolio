@@ -40,6 +40,18 @@ nav ul li {
   border-bottom: 0.2rem solid var(--primary-yellow);
 }
 
+#resume-link {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  color: white !important;
+  border: 0.2rem solid var(--primary-orange);
+}
+
+#resume-link:hover {
+  background-color: var(--primary-orange-hover);
+  transition: .2s ease-in-out;
+}
+
 /******************************** HEADER ********************************/
 
 .header-wrapper {

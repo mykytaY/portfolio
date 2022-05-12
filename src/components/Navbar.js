@@ -24,6 +24,9 @@ const Navbar = () => {
                         <li className="nav-item">
                             <Link smooth={true} to="contact" offset={-90} className="nav-link" href="#">Contact</Link>
                         </li>
+                        <li className="nav-item">
+                            <a className="nav-link" id="resume-link" href="https://drive.google.com/file/d/1h_UVTRGosb6egxvtiZtZC-xlVs0EqykF/view?usp=sharing">Resume</a>
+                        </li>
                     </ul>
                 </div>
             </div>
