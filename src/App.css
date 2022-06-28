@@ -41,15 +41,21 @@ nav ul li {
 }
 
 #resume-link {
-  margin-left: 1rem;
-  margin-right: 1rem;
-  color: white !important;
-  border: 0.2rem solid var(--primary-orange);
+  margin-left: 3rem;
+  margin-right: 3rem;
+  color: var(--primary-yellow) !important;
 }
 
-#resume-link:hover {
-  background-color: var(--primary-orange-hover);
-  transition: .2s ease-in-out;
+@media(max-width: 768px) {
+  .navbar-nav>li>a {
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+
+  #resume-link {
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
 }
 
 /******************************** HEADER ********************************/
@@ -119,7 +125,7 @@ nav ul li {
   }
 }
 
-/*************** HEADER MAIN OFFER BUTTON  **************/
+/*************** HEADER MAIN BUTTON  **************/
 
 .btn-main {
   border: solid 2px var(--primary-orange-hover);
@@ -293,7 +299,7 @@ nav ul li {
 
 .line {
   position: relative;
-  top: -0.8rem;
+  top: -0.829rem;
   width: 0;
   height: 0.125rem;
   background: var(--primary-orange);
@@ -359,4 +365,14 @@ textarea.form-control {
 
 .footer p {
   margin-bottom: 0;
+}
+
+@media(max-width: 768px) {
+  .footer-text{
+    justify-content: center;
+  }
+
+  .footer-col{
+    margin-bottom: 1rem;
+  }
 }

@@ -12,10 +12,12 @@ import swift from '../images/skills/swift.png';
 const SkillsCarousel = () => {
     return (
         <Carousel 
-        showArrows={true}
+        showArrows={false}
+        showIndicators={false}
         infiniteLoop={true}
         autoPlay={true}
         interval={1500}
+        showStatus={false}
         >
             <>
                 <img src={js} alt="JavaScript" />
