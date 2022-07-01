@@ -267,6 +267,15 @@ nav ul li {
   .profile-img {
     width: 10rem;
   }
+
+  #dots {
+    width: 10rem;
+  }
+
+  #rectangle {
+    width: 10rem;
+    height: 12rem;
+  }
 }
 
 /******************************** SKILLS  ********************************/
