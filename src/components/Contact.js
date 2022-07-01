@@ -137,7 +137,7 @@ const Contact = () => {
                                 </span>
                             </div>
                         </div>
-                        <button className='btn-main contact-btn' type='submit'>Contact Me</button>
+                        <button className='btn-main contact-btn w-50' type='submit'>Send Request</button>
                     </form>
                 </div>
             </div>
