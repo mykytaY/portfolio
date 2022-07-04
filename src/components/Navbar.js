@@ -15,16 +15,16 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <Link smooth={true} to="home" className="nav-link active" aria-current="page" href="#">Home</Link>
+                            <Link smooth={true} to="home" className="nav-link active" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" aria-current="page" href="#">Home</Link>
                         </li>
                         <li className="nav-item">
-                            <Link smooth={true} to="about" offset={-90} className="nav-link" href="#">About Me</Link>
+                            <Link smooth={true} to="about" offset={-90} className="nav-link" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" href="#">About Me</Link>
                         </li>
                         <li className="nav-item">
-                            <Link smooth={true} to="skills" offset={-90} className="nav-link" href="#">Skills</Link>
+                            <Link smooth={true} to="skills" offset={-90} className="nav-link" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" href="#">Skills</Link>
                         </li>
                         <li className="nav-item">
-                            <Link smooth={true} to="contact" offset={-90} className="nav-link" href="#">Contact</Link>
+                            <Link smooth={true} to="contact" offset={-90} className="nav-link" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show" href="#">Contact</Link>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" id="resume-link" target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1h_UVTRGosb6egxvtiZtZC-xlVs0EqykF/view?usp=sharing">Resume</a>
