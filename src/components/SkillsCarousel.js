@@ -7,7 +7,6 @@ import html from '../images/skills/html.png';
 import js from '../images/skills/js.png';
 import nodejs from '../images/skills/nodejs.png';
 import react from '../images/skills/react.png';
-import swift from '../images/skills/swift.png';
 
 const SkillsCarousel = () => {
     return (
@@ -53,12 +52,6 @@ const SkillsCarousel = () => {
                 <img src={git} alt="Git" />
                 <div className='myCarousel'>
                     <h3>Git</h3>
-                </div>
-            </>
-            <>
-                <img src={swift} alt="Swift" />
-                <div className='myCarousel'>
-                    <h3>Swift</h3>
                 </div>
             </>
         </Carousel >
